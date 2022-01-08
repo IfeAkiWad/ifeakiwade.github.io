@@ -1,4 +1,5 @@
 import React from "react"
+import About from "../about/About";
 
 const Home = () => {
     return (
@@ -7,6 +8,9 @@ const Home = () => {
             <h1>Ifeoluwa Akinremi-Wade.</h1>
             <h1>I'm a Software Engineer.</h1>
             <p>My very first coding language is Ruby, but I've fallen in love with Javascript. I am a React developer with experience in Ruby on Rails. </p>
+            <br /><br /><br /><br />
+            <About />
+            
         </div>
     )
 }
