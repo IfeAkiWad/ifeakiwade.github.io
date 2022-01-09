@@ -1,7 +1,5 @@
 import React from "react"
-import PortfolioCommonHealth from "../PortfolioCommonHealth.jpg"
-import PortfolioDayCare from "../PortfolioDayCare.jpg"
-import PortfolioProjectManager from "../PortfolioProjectManager.jpg"
+import ProjectImage from "../ProjectImage"
 
 const Project = () => {
     return (
@@ -9,6 +7,8 @@ const Project = () => {
             <h1>My Projects</h1>
             <h2>Projects that I've built.</h2>
             <h3>I am always looking to improve them.</h3>
+
+            <ProjectImage />
         </div>
     )
 }
