@@ -1,4 +1,7 @@
 import React from "react"
+import PortfolioCommonHealth from "../PortfolioCommonHealth.jpg"
+import PortfolioDayCare from "../PortfolioDayCare.jpg"
+import PortfolioProjectManager from "../PortfolioProjectManager.jpg"
 
 const Project = () => {
     return (
