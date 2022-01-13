@@ -6,9 +6,15 @@ import PortfolioProjectManager from "../PortfolioProjectManager.jpeg"
 const ProjectImage = () => {
     return (
         <div id="image">
-            <img className="img-day-care" src={PortfolioDayCare} alt="DayCare project"/>
-            <img className="img-proj-manager" src={PortfolioProjectManager} alt="project manager project"/>
-            <img className="img-common-health" src={PortfolioCommonHealth} alt="common health project"/>
+            <a href="https://github.com/IfeAkiWad/Day_Care" > 
+                <img className="img-day-care" src={PortfolioDayCare} alt="DayCare project"/>
+            </a>  
+            <a href="https://github.com/IfeAkiWad/Project-Manager_Javascript-project">  
+                <img className="img-proj-manager" src={PortfolioProjectManager} alt="project manager project"/>
+            </a>    
+            <a href="https://github.com/IfeAkiWad/CommonHealth">    
+                <img className="img-common-health" src={PortfolioCommonHealth} alt="common health project"/>
+            </a>
         </div>
     )
 }
