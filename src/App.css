@@ -64,11 +64,12 @@
 
 /* project images */
 .img-day-care, .img-proj-manager, .img-common-health{
-  /* border-radius: 8px */
+  /* border-radius: 8px; */
   border: 1px solid #ddd;
-  border-radius: 4px;
+  border-radius: 8px;
   padding: 5px;
-  width: 150px;
+  width: 300px;
+  margin-right: 1%;
 }
 
 .img-day-care:hover, .img-proj-manager:hover, .img-common-health:hover{
