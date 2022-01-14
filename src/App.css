@@ -75,3 +75,11 @@
 .img-day-care:hover, .img-proj-manager:hover, .img-common-health:hover{
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
+
+/* contact */
+.email-icon{
+  border-radius: 8px;
+  padding: 5px;
+  width: 300px;
+}
+
