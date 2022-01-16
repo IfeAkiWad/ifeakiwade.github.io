@@ -5,7 +5,7 @@ import Contact from "../contact/Contact"
 
 const Home = () => {
     return (
-        <div>
+        <div id="home">
             <p>Welcome to my website! My name is</p>
             <h1>Ifeoluwa Akinremi-Wade.</h1>
             <h1>I'm a Software Engineer.</h1>
