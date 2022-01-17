@@ -146,6 +146,10 @@ div.image{
   transition: transform 250ms;
 }
 
+.img-day-care{
+  margin-top: 5%;
+}
+
 .img-day-care:hover, .img-proj-manager:hover, .img-common-health:hover{
   box-shadow: 0 0 5px 3px gold;
   transform: translateY(-10px);
