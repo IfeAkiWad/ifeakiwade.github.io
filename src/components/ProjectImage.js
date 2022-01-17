@@ -6,18 +6,33 @@ import PortfolioProjectManager from "../PortfolioProjectManager.jpeg"
 const ProjectImage = () => {
     return (
         <div id="image">
-            <a href="https://github.com/IfeAkiWad/Day_Care" > 
-                <img className="img-day-care" src={PortfolioDayCare} alt="DayCare project"/>
-            </a>
-            <h4 className="title-day-care">Day Care: React and Redux client-side & Ruby on Rails backend </h4>
-            <a href="https://github.com/IfeAkiWad/Project-Manager_Javascript-project">  
-                <img className="img-proj-manager" src={PortfolioProjectManager} alt="project manager project"/>
-            </a>    
-            <h4 className="title-proj-manager">Project Manager: Javascript client-side & Ruby on Rails backend </h4>
-            <a href="https://github.com/IfeAkiWad/CommonHealth">    
-                <img className="img-common-health" src={PortfolioCommonHealth} alt="common health project"/>
-            </a>
-            <h4 className="title-common-health">CommonHealth: Ruby on Rails </h4>
+            <div className="polaroid" >
+                <a href="https://github.com/IfeAkiWad/Day_Care" > 
+                    <img className="img-day-care" src={PortfolioDayCare} alt="DayCare project"/>
+                </a>
+                    
+                <div className="container">
+                    <p id="title-day-care">CommonHealth: Ruby on Rails </p>
+                </div>
+            </div>
+                
+            <div className="polaroid" >
+                <a href="https://github.com/IfeAkiWad/Project-Manager_Javascript-project">  
+                    <img className="img-proj-manager" src={PortfolioProjectManager} alt="project manager project"/>
+                </a>     
+                <div className="container">
+                    <p id="title-proj-manager">CommonHealth: Ruby on Rails </p>
+                </div>
+            </div>    
+            <div className="polaroid" >
+                <a href="https://github.com/IfeAkiWad/CommonHealth">    
+                    <img className="img-common-health" src={PortfolioCommonHealth} alt="common health project"/>
+                </a>
+                <div className="container">
+                    <p id="title-common-health">CommonHealth: Ruby on Rails </p>
+                </div>
+                    
+           </div>
         </div>
     )
 }
