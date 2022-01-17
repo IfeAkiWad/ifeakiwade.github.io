@@ -145,14 +145,13 @@ div.image{
   width: 100%;
   transition: transform 250ms;
 }
-
-.img-day-care{
-  margin-top: 5%;
-}
-
 .img-day-care:hover, .img-proj-manager:hover, .img-common-health:hover{
   box-shadow: 0 0 5px 3px gold;
   transform: translateY(-10px);
+}
+
+.img-day-care{
+  margin-top: 5%;
 }
 
 div.polaroid {
@@ -174,16 +173,27 @@ div.container {
 }
 
 /* contact */
-.email-icon{
-  border-radius: 8px;
-  padding: 5px;
-  width: 300px;
-  /* center email  */
+.email-btn{
+  background-color: grey;
   display: block;
-  margin-left: auto;
+  margin-left: 45%;
   margin-right: auto;
-  width: 50%;
-  margin-bottom: 10%;
+  /* width: 7%;
+  height: 10vh;  */
+  transition: transform 250ms;
+  padding: 14px 25px;
+  text-align: center;
+  display: inline-block;
+  
+}
+
+.email-btn:hover {
+  transform: translateY(-10px);
+
+}
+
+.email-text{
+  text-decoration: none;
 }
 
 /* footer */

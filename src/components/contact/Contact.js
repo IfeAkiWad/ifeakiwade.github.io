@@ -5,11 +5,13 @@ const Contact = () => {
         <div id="contact">
             <h1>Let's Make Contact!</h1>
             <p>My inbox is open to opportunities!</p>
-            <a href= "mailto:ifeoluwa.akinremi.wade@gmail.com">
+            <div>
                 <button className="email-btn">
-                    <h1 className="email-text"> Reach Out! </h1>
+                    <a href= "mailto:ifeoluwa.akinremi.wade@gmail.com">
+                        <h1 className="email-text">Hello</h1>
+                    </a>
                 </button>
-            </a>
+            </div>
         </div>
     )
 }
