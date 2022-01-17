@@ -46,16 +46,16 @@ html, body {
 }
 
 body{
-  background-color: black;
+  background-color: whitesmoke;
 }
 
 h1, h2, h3, h4{
-  color: #ddd;
+  color: black;
   text-align: center;
 }
 
 p{
-  color:azure;
+  color:black;
   text-align: center;
   /* display block */
   display: block;
@@ -95,7 +95,7 @@ p{
 /* components */
 
 #home{
-background-color: black;
+background-color: whitesmoke;
 }
 
 .welcome{
@@ -148,7 +148,7 @@ div.image{
   transition: transform 250ms;
 }
 .img-day-care:hover, .img-proj-manager:hover, .img-common-health:hover{
-  box-shadow: 0 0 5px 3px gold;
+  box-shadow: 0 0 5px 3px black;
   transform: translateY(-10px);
 }
 
@@ -204,7 +204,7 @@ div.container {
 
 /* footer */
 #footer{
-  color: white;
+  color: black;
   text-align: center;
   margin-top: 10%;
   
