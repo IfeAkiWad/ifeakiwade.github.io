@@ -143,10 +143,12 @@ div.image{
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+  transition: transform 250ms;
 }
 
 .img-day-care:hover, .img-proj-manager:hover, .img-common-health:hover{
   box-shadow: 0 0 5px 3px gold;
+  transform: translateY(-10px);
 }
 
 div.polaroid {
