@@ -182,7 +182,7 @@ div.container {
 .email-btn{
   background-color: grey;
   display: block;
-  margin-left: 45%;
+  margin-left: 42.5%;
   margin-right: auto;
   /* width: 7%;
   height: 10vh;  */
@@ -190,7 +190,8 @@ div.container {
   padding: 14px 25px;
   text-align: center;
   display: inline-block;
-  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+  width: 15%;
 }
 
 .email-btn:hover {

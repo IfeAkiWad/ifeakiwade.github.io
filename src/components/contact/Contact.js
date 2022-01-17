@@ -7,7 +7,7 @@ const Contact = () => {
             <p>My inbox is open to opportunities!</p>
             <div>
                 <button className="email-btn">
-                    <a href= "mailto:ifeoluwa.akinremi.wade@gmail.com">
+                    <a href= "mailto:ifeoluwa.akinremi.wade@gmail.com" rel="noopener noreferrer" target="_blank">
                         <h1 className="email-text">Hello</h1>
                     </a>
                 </button>
