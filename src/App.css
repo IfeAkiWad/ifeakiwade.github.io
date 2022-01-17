@@ -186,7 +186,6 @@ div.container {
   margin-right: auto;
   /* width: 7%;
   height: 10vh;  */
-  transition: transform 250ms;
   padding: 14px 25px;
   text-align: center;
   display: inline-block;
@@ -196,18 +195,33 @@ div.container {
 
 .email-btn:hover {
   transform: translateY(-10px);
-
-}
-
-.email-text{
   text-decoration: none;
 }
+.email-text{
+  transition: transform 250ms;
+  font-size:xx-large ;
+}
+
+.email-text:hover{
+  transform: translateY(-10px);
+}
+a.email{
+  margin-left: 45.5%;
+}
+
+a.email:link, a.email:visited {
+  text-decoration: none;
+}
+
+a.email:hover, a.email:active {
+  text-decoration: none;
+}
+
 
 /* footer */
 #footer{
   color: black;
   text-align: center;
   margin-top: 10%;
-  
 }
 
