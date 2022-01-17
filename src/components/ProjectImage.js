@@ -5,7 +5,7 @@ import PortfolioProjectManager from "../PortfolioProjectManager.jpeg"
 
 const ProjectImage = () => {
     return (
-        <div id="image">
+        <div className="image">
             <div className="polaroid" >
                 <a href="https://github.com/IfeAkiWad/Day_Care" > 
                     <img className="img-day-care" src={PortfolioDayCare} alt="DayCare project"/>
