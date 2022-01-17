@@ -7,7 +7,7 @@ const ProjectImage = () => {
     return (
         <div className="image">
             <div className="polaroid" >
-                <a href="https://github.com/IfeAkiWad/Day_Care" > 
+                <a href="https://github.com/IfeAkiWad/Day_Care" rel="noopener noreferrer" target="_blank"> 
                     <img className="img-day-care" src={PortfolioDayCare} alt="DayCare project"/>
                 </a>
                     
@@ -17,7 +17,7 @@ const ProjectImage = () => {
             </div>
                 
             <div className="polaroid" >
-                <a href="https://github.com/IfeAkiWad/Project-Manager_Javascript-project">  
+                <a href="https://github.com/IfeAkiWad/Project-Manager_Javascript-project" rel="noopener noreferrer" target="_blank">  
                     <img className="img-proj-manager" src={PortfolioProjectManager} alt="project manager project"/>
                 </a>     
                 <div className="container">
@@ -25,7 +25,7 @@ const ProjectImage = () => {
                 </div>
             </div>    
             <div className="polaroid" >
-                <a href="https://github.com/IfeAkiWad/CommonHealth">    
+                <a href="https://github.com/IfeAkiWad/CommonHealth" rel="noopener noreferrer" target="_blank">    
                     <img className="img-common-health" src={PortfolioCommonHealth} alt="common health project"/>
                 </a>
                 <div className="container">
