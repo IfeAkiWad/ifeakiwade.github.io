@@ -112,6 +112,7 @@ background-color: black;
 
 #project{
   max-height: 100vh;
+  margin-bottom: -23px;
 }
 
 .my-projects{
@@ -124,6 +125,7 @@ background-color: black;
   border: 1px solid azure; */
   max-height: 200vh;
 }
+
 
 /* project images */
 div.image{
@@ -173,6 +175,10 @@ div.container {
 }
 
 /* contact */
+.contact-header{
+  margin-top: 10%;
+}
+
 .email-btn{
   background-color: grey;
   display: block;

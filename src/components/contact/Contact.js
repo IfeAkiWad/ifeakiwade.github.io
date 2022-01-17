@@ -2,8 +2,8 @@ import React from "react"
 
 const Contact = () => {
     return (
-        <div id="contact">
-            <h1>Let's Make Contact!</h1>
+        <div>
+            <h1 className="contact-header">Let's Make Contact!</h1>
             <p>My inbox is open to opportunities!</p>
             <div>
                 <button className="email-btn">
