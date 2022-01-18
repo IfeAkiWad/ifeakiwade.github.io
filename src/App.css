@@ -243,6 +243,10 @@ div.container {
   color: black
 }
 
+.proj-image-text {
+  width: 66%;
+}
+
 /* footer */
 #footer{
   color: black;
