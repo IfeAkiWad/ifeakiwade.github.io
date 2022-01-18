@@ -107,7 +107,7 @@ p{
 }
 
 /* components */
-
+/* home */
 #home{
 background-color: whitesmoke;
 }
@@ -125,6 +125,7 @@ background-color: whitesmoke;
   margin-top: 10%;
 }
 
+/* about */
 #about{
   max-height: 100vh;
 }
@@ -133,6 +134,11 @@ background-color: whitesmoke;
   margin-top: 10%;
 }
 
+.about-text {
+  
+}
+
+/* project */
 #project{
   max-height: 100vh;
   margin-bottom: -23px;
@@ -142,11 +148,39 @@ background-color: whitesmoke;
   margin-top: 10%;
 }
 
+/* contact */
 #contact{
   margin-top: 20%;
   max-height: 200vh;
 }
+.contact-header{
+  margin-top: 12%;
+}
 
+.email-text{
+  transition: transform 250ms;
+  font-size:xx-large ;
+  margin-top: -0%;
+}
+
+.email-text:hover{
+  transform: translateY(-5px);
+}
+a.email{
+  margin-left: 45.5%;
+}
+
+a.email:link, a.email:visited {
+  text-decoration: none;
+}
+
+a.email:hover, a.email:active {
+  text-decoration: none;
+}
+
+.opportunities {
+margin-top: -1%;
+}
 
 /* project images */
 section.image{
@@ -204,37 +238,6 @@ div.container {
 #title-day-care, #title-proj-manager, #title-common-health{
   color: black
 }
-
-/* contact */
-.contact-header{
-  margin-top: 12%;
-}
-
-.email-text{
-  transition: transform 250ms;
-  font-size:xx-large ;
-  margin-top: -0%;
-}
-
-.email-text:hover{
-  transform: translateY(-5px);
-}
-a.email{
-  margin-left: 45.5%;
-}
-
-a.email:link, a.email:visited {
-  text-decoration: none;
-}
-
-a.email:hover, a.email:active {
-  text-decoration: none;
-}
-
-.opportunities {
-margin-top: -1%;
-}
-
 
 /* footer */
 #footer{
