@@ -125,6 +125,10 @@ background-color: whitesmoke;
   margin-top: 10%;
 }
 
+.home-text {
+  width: 30%;
+}
+
 /* about */
 #about{
   max-height: 100vh;
