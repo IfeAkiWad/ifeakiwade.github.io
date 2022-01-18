@@ -5,9 +5,7 @@ const Project = () => {
     return (
         <div id="project">
             <h1 className="my-projects">My Projects</h1>
-            <h2>Projects that I've built.</h2>
             <h3>I am always looking to improve them.</h3>
-
             <ProjectImage />
         </div>
     )

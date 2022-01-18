@@ -9,8 +9,8 @@ const Home = () => {
         <div>
             <section id="home">
                 <p className="welcome">Welcome to my website! My name is</p>
-                <h1>Ifeoluwa Akinremi-Wade.</h1>
-                <h2>I'm a Software Engineer.</h2>
+                <h1 className="my-name">Ifeoluwa Akinremi-Wade.</h1>
+                <h2 className="soft-engineer">I'm a Software Engineer.</h2>
                 <p>My very first coding language was Ruby, but I've fallen in love with Javascript. I am a growing React developer with experience in Ruby on Rails. </p>
             </section>
             <br /><br />
