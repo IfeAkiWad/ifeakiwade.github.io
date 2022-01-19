@@ -3,6 +3,7 @@ import About from "../about/About";
 import Project from "../projects/Project";
 import Contact from "../contact/Contact"
 import Footer from "../footer/Footer";
+import SocialMedia from "../SocialMedia";
 
 const Home = () => {
     return (
@@ -24,6 +25,10 @@ const Home = () => {
             <br /><br />
             <section id="contact">
                 <Contact />
+            </section>
+            <br /><br />
+            <section id="social-media">
+                <SocialMedia />
             </section>
             <Footer />
             
