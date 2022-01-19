@@ -6,11 +6,9 @@ const Contact = () => {
             <h1 className="contact-header">Let's Get In Touch!</h1>
             <p className="opportunities">My inbox is open to opportunities!</p>
             <div>
-                {/* <button className="email-btn"> */}
                     <a className="email" href= "mailto:ifeoluwa.akinremi.wade@gmail.com" rel="noopener noreferrer" target="_blank">
                         <h4 className="email-text">Say Hello </h4>
                     </a>
-                {/* </button> */}
             </div>
         </div>
     )
